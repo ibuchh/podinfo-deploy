@@ -9,9 +9,9 @@ spec:
     app: frontend
   ports:
     - name: http
-      port: 9898
+      port: 80
       protocol: TCP
-      targetPort: 80
+      targetPort: 9898
 #     - port: 9999
 #       targetPort: grpc
 #       protocol: TCP
